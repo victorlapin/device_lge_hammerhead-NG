@@ -32,6 +32,9 @@ PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Include YAOSP telephony configuration
+include vendor/yaosp/configs/yaosp_phone.mk
+
 $(call inherit-product, device/lge/hammerhead/device.mk)
 $(call inherit-product-if-exists, vendor/lge/hammerhead/device-vendor.mk)
 
