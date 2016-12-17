@@ -330,4 +330,7 @@
   <!-- Battery fast charge (in microwatt) -->
   <integer name="config_chargingFastThreshold">5500000</integer>
 
+    <!-- Enable Night display, which requires HWC 2.0. -->
+    <bool name="config_nightDisplayAvailable">true</bool>
+
 </resources>
